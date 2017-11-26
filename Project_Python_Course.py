@@ -1,7 +1,2 @@
-number = input("Enter a number")
-number = int(number)
+# Python code that is meant as my program, in the python course I am currently taking
 
-from math import pow
-
-print(type(number))
-print(pow(number,2))
