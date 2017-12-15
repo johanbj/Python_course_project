@@ -1,17 +1,12 @@
 # Python code that is meant as my program, in the python course I am currently taking
 
+# This program invstigates the different pathways given in the GEM "ecYeast_v.1_4" (GECKO) model.
+# It the gatters and compares som data on the different enzymes which are annotated to each pathway.
+#
+# Data to compare, which is given in the model, include; molecular weights, length of enzymes and amino
+# acid usage. 
 
-# This program takes a list of Protein names, as well as their abundancies.
-# It then compares protein levels, between different samples.
 
-# The program should have an option to choose between analysing simulation data or experimental data
-# This could for example tell the program if normalization is required or not.
 
-file = '/Users/johanbj/Documents/Courses/Python/protein_test.csv'
+############# READ THE TEXT FILE CONTAINING INFORMATION ON PATHWAYS THAT PROTEINS PARTICIPATE IN #############
 
-import csv
-with open(file, newline='') as csvfile:
-	spamreader = csv.reader(csvfile, delimiter=';', quotechar='|')
-	for row in spamreader:
-		print(row[0])
-		
