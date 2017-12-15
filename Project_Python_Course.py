@@ -10,3 +10,12 @@
 
 ############# READ THE TEXT FILE CONTAINING INFORMATION ON PATHWAYS THAT PROTEINS PARTICIPATE IN #############
 
+read_this_file = '../Protein_Pathways.txt'
+
+protein_pathways = open(read_this_file,'r')
+
+for line in protein_pathways:     # Go through all lines in the text-file
+	line = line.rstrip()          # Get rid of the new-line character.
+
+	#print(repr(line))
+	#print(repr(line.rstrip()))
