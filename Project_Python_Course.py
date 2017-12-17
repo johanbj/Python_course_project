@@ -16,6 +16,8 @@ protein_pathways = open(read_this_file,'r')
 
 for line in protein_pathways:     # Go through all lines in the text-file
 	line = line.rstrip()          # Get rid of the new-line character.
+	list_from_line = line.split(' sce')
+	print(list_from_line[0])
 
 	#print(repr(line))
 	#print(repr(line.rstrip()))
