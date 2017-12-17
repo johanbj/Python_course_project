@@ -13,11 +13,31 @@
 read_this_file = '../Protein_Pathways.txt'
 
 protein_pathways = open(read_this_file,'r')
+collection_of_pathways = []
 
 for line in protein_pathways:     # Go through all lines in the text-file
 	line = line.rstrip()          # Get rid of the new-line character.
-	list_from_line = line.split(' sce')
-	print(list_from_line[0])
+	list_from_line = line.split(' sce0')
 
+#############################################
+
+# I NEED TO ADD THE 'SCE' TO THE ELEMENT AGAIN
+
+#############################################
+	
+	collection_of_pathways.extend(list_from_line)
+print(collection_of_pathways)
+print(len(collection_of_pathways))
+
+unique_pathways = []
+for pathway_code in collection_of_pathways:
+    if pathway_code not in unique_pathways:
+        unique_pathways.append(pathway_code)
+print(unique_pathways)
+print(len(unique_pathways))
+	#for pathway in list_from_line:
+	#	if pathway
 	#print(repr(line))
 	#print(repr(line.rstrip()))
+
+
