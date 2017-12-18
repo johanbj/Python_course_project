@@ -14,10 +14,13 @@ read_this_file = '../Protein_Pathways.txt'
 
 protein_pathways = open(read_this_file,'r')
 collection_of_pathways = []
+collection_of_lines = []
 
-for line in protein_pathways:     # Go through all lines in the text-file
-	line = line.rstrip()          # Get rid of the new-line character.
+for line in protein_pathways:          # Go through all lines in the text-file
+	line = line.rstrip()               # Get rid of the new-line character.
+	collection_of_lines.append(line)   # Save the original lines for later purpose
 	list_from_line = line.split(' sce0')     # Split and categorize the line, based on a unique identifier
+	listlen = len(list_from_line)
 
 	if listlen>1:                       # If the list now has more than 1 element, all elements except
 		for j in range(1,(listlen)):    # the first must have 'sce0' added to it again.
@@ -31,3 +34,60 @@ for pathway_name in collection_of_pathways:
         unique_pathways.append(pathway_name)
 
 protein_pathways.close()     # Close the file
+
+# Onwards follow some tests for future operations
+
+
+
+
+
+
+
+
+
+
+############## TEST TO MATCH STRINGS ##############
+
+testar = 'sce009 Gluco sce010 Transaminase sce011 TCA'
+patters = ['sce009 Gluco','hejsan','sce010 Transaminase']
+
+for word_ in patters:
+	if word_ in testar:
+		print('true')
+	else:
+		print('false')
+
+###################################################
+
+
+####### TEST TO APPEND RESULTS TO DICTIONARY ######
+
+Pathways_and_enzymes = {}
+i = 1
+for word_ in patters:
+	if word_ in testar:
+		print('true')
+		Pathways_and_enzymes[word_] = i
+	else:
+		print('false')
+	i += 1
+
+print(Pathways_and_enzymes)
+
+
+
+#tel = {'jack': [4098,90,91], 'sape': 4139}
+
+#print(tel['jack'])
+
+#tel['guido'] = 4127
+
+###################################################
+
+
+
+
+
+
+
+
