@@ -8,11 +8,11 @@
 
 
 
-############# READ THE TEXT FILE CONTAINING INFORMATION ON PATHWAYS THAT PROTEINS PARTICIPATE IN #############
+############  READ THE TEXT FILE CONTAINING INFORMATION ON PATHWAYS THAT PROTEINS PARTICIPATE IN  ############
 
-read_this_file = '../Protein_Pathways.txt'
+read_the_pathways = '../Protein_Pathways.txt'
 
-protein_pathways = open(read_this_file,'r')
+protein_pathways = open(read_the_pathways,'r')
 collection_of_pathways = []
 collection_of_lines = []
 
@@ -41,7 +41,7 @@ protein_pathways.close()     # Close the file
 # are associated to that name.
 
 
-########### MATCH AND ORDER PROTEIN-INDEX CORRESPONDING TO EACH PATHWAY ###########
+##########  MATCH AND ORDER PROTEIN-INDEX CORRESPONDING TO EACH PATHWAY  ##########
 
 Pathways_and_enzymes = {}
 
@@ -57,9 +57,89 @@ for p_name in unique_pathways:
 
 ###################################################################################
 
+# The next part of the analysis is to compute interesting data for each pathway
+# One example may be the average enzyme molecular weight, for a pathway
+# To begin with, code will be tested with only one pathway. The pathway was
+# Choosen by random and is 'sce04011  MAPK signaling pathway - yeast'.
 
 
 
+##########  CALCULATE THE AVERAGE ENZYME MOLECULAR WEIGHT OF THE PATHWAY  ##########
+
+####  EXTRACT MOLECULAR WEIGHTS OF ENZYMES  ####
+read_the_MWs = '../Protein_MWs.txt'         
+protein_MWs = open(read_the_MWs,'r')
+collected_weights = []
+
+for weight in protein_MWs:
+	weight = weight.rstrip()
+	weight = float(weight)
+	collected_weights.append(weight)
+
+protein_MWs.close()
+########################################
+
+########  EXTRACT SEQUENCES OF ENZYMES  ########
+read_the_seqs = '../Protein_Sequences.txt'         
+protein_seqs = open(read_the_seqs,'r')
+collected_seqs = []
+
+for seq in protein_seqs:
+	seq = seq.rstrip()
+	collected_seqs.append(seq)
+
+protein_seqs.close()
+################################################
+
+###################################################################################
+
+# Now when the information about all enzymes has been provided, the script
+# will calculate the data for each pathway and its connected enzymes
+
+
+################  CALCULATING DATA  ################
+
+import numpy
+
+def averages_of_enzymes(list_of_enzymes):      # Defining a function that will do ALL calculations
+	total_weight = 0																					# I
+	total_length = 0																					# N
+	total_amount = 0																					# I
+	list_of_amino_acids = [0] * 20																		# T
+	amino_acids = ['A','R','N','D','C','E','Q','G','H','I','L','K','M','F','P','S','T','W','Y','V']		# !
+
+	for ez in list_of_enzymes:	# Goes through all enzymes connected to the pathway investigated
+		ez = int(ez)									
+		total_weight += collected_weights[(ez-1)]       # Add weight to the total weight
+		total_length += len(collected_seqs[(ez-1)])     # Add length to the total length
+
+		for letter in amino_acids:												#
+			abundancy_of_amino_acid = collected_seqs[(ez-1)].count(letter)		#
+			INDEX = amino_acids.index(letter)									#
+			list_of_amino_acids[INDEX] += abundancy_of_amino_acid				#
+
+	list_of_amino_acids = numpy.array(list_of_amino_acids)
+	list_of_amino_acids = (list_of_amino_acids/total_length)*100
+	average_ez_weight = total_weight/len(list_of_enzymes)
+	average_ez_length = total_length/len(list_of_enzymes)
+
+
+	averages_of_enz = [len(list_of_enzymes),average_ez_weight,average_ez_length]
+	averages_of_enz.extend(list_of_amino_acids)
+	return(averages_of_enz)
+
+
+used_enzymes = Pathways_and_enzymes['sce04011  MAPK signaling pathway - yeast']
+
+averages_of_enz = averages_of_enzymes(used_enzymes)
+
+
+
+
+Pathways_and_enzymes_analyzed = {}
+# The dictionary contain data on each pathway, in the following order; number of enzymes in pathway,
+# average enzyme weight, average enzyme length percentage of different amino acids needed in the order
+# A, R, N, D, C, E, Q, G, H, I, L, K, M, F, P, S, T, W, Y, V
 
 
 
