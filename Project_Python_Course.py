@@ -35,55 +35,27 @@ for pathway_name in collection_of_pathways:
 
 protein_pathways.close()     # Close the file
 
-# Onwards follow some tests for future operations
+###############################################################################################################
+
+# Next task is to go through all the unique pathway names & note which protein that
+# are associated to that name.
 
 
-
-
-
-
-
-
-
-
-############## TEST TO MATCH STRINGS ##############
-
-testar = 'sce009 Gluco sce010 Transaminase sce011 TCA'
-patters = ['sce009 Gluco','hejsan','sce010 Transaminase']
-
-for word_ in patters:
-	if word_ in testar:
-		print('true')
-	else:
-		print('false')
-
-###################################################
-
-
-####### TEST TO APPEND RESULTS TO DICTIONARY ######
+########### MATCH AND ORDER PROTEIN-INDEX CORRESPONDING TO EACH PATHWAY ###########
 
 Pathways_and_enzymes = {}
-i = 1
-for word_ in patters:
-	if word_ in testar:
-		print('true')
-		Pathways_and_enzymes[word_] = i
-	else:
-		print('false')
-	i += 1
 
-print(Pathways_and_enzymes)
+for p_name in unique_pathways:
+	i = 1
+	hits = []
+	for enzyme in collection_of_lines:
+		if p_name in enzyme:
+			hits.append(i)
 
+		i += 1
+	Pathways_and_enzymes[p_name] = hits
 
-
-#tel = {'jack': [4098,90,91], 'sape': 4139}
-
-#print(tel['jack'])
-
-#tel['guido'] = 4127
-
-###################################################
-
+###################################################################################
 
 
 
