@@ -1,6 +1,6 @@
 # Python code that is meant as my program, in the python course I am currently taking
 
-# This program invstigates the different pathways given in the GEM "ecYeast_v.1_4" (GECKO) model.
+# This program investigates the different pathways given in the GEM "ecYeast_v.1_4" (GECKO) model.
 # It the gatters and compares som data on the different enzymes which are annotated to each pathway.
 #
 # Data to compare, which is given in the model, include; molecular weights, length of enzymes and amino
@@ -132,14 +132,36 @@ def averages_of_enzymes(list_of_enzymes):      # Defining a function that will d
 used_enzymes = Pathways_and_enzymes['sce04011  MAPK signaling pathway - yeast']
 
 averages_of_enz = averages_of_enzymes(used_enzymes)
+print(averages_of_enz)
+#########################################################################################
+#########################################################################################
 
+# After having computed all the relevant data, I now want to do some
+# basic plotting in order to visualize my results.
+
+
+################  PLOTTING DATA  #################
+import matplotlib.pyplot as plt; plt.rcdefaults()
+
+amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
+amino_acid_pos = numpy.arange(len(amino_acids))
+amino_acid_abundancy = averages_of_enz[3:]
+plt.bar(amino_acid_pos, amino_acid_abundancy, align='center', alpha=0.5)
+plt.xticks(amino_acid_pos, amino_acids)
+plt.ylabel('Usage')
+plt.title('Programming language usage')
+plt.show()
+###################################################
 
 
 
 Pathways_and_enzymes_analyzed = {}
+
 # The dictionary contain data on each pathway, in the following order; number of enzymes in pathway,
 # average enzyme weight, average enzyme length percentage of different amino acids needed in the order
 # A, R, N, D, C, E, Q, G, H, I, L, K, M, F, P, S, T, W, Y, V
+
+
 
 
 
