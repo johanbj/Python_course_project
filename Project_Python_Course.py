@@ -152,11 +152,42 @@ for thepathway in unique_pathways:
 # After having computed all the relevant data, I now want to do some
 # basic plotting in order to visualize my results.
 
-
-################  PLOT ABUNDANCE OF A GOVEN AMINO ACID FOR ALL PATHWAYS  #################
 import matplotlib.pyplot as plt
-import time
 
+###################  PLOT AMOUNT OF PROTEINS PRESENT FOR ALL PATHWAYS  ###################
+
+number_of_proteins = []
+
+for thepathway in unique_pathways:
+	data_from_pathway = Pathways_and_enzymes_analyzed[thepathway]
+	number_of_proteins.append(data_from_pathway[0])
+
+number_of_proteins = number_of_proteins[:-1]
+print(number_of_proteins)
+
+pathway_pos = numpy.arange(1,len(number_of_proteins)+1)
+plt.bar(pathway_pos, number_of_proteins, align='center', alpha=0.5)
+plt.xticks(pathway_pos, number_of_proteins)
+plt.ylabel('Number of proteins')
+plt.title('Proteins in pathways')
+plt.grid(axis='y')
+
+orig_high_abound = max(number_of_proteins)
+high_abound = round(orig_high_abound)
+
+if high_abound < orig_high_abound:
+	high_abound += 1
+
+plt.axis([0, 90, 0, high_abound])
+plt.savefig('Number_of_proteins_in_pathways.png', bbox_inches='tight')
+plt.close()
+
+
+#########################################################################################
+
+# Then check the amino acids
+
+################  PLOT ABUNDANCE OF A GIVEN AMINO ACID FOR ALL PATHWAYS  #################
 amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
 
 for aa in amino_acids:
@@ -179,12 +210,12 @@ for aa in amino_acids:
 
 	pathway_pos = numpy.arange(1,len(unique_pathways)+1)
 	amino_acid_abundancy = investigated_amino_acid_abundancy
-	plt.bar(pathway_pos, amino_acid_abundancy, width=0.5, align='center', alpha=0.5)
+	plt.bar(pathway_pos, amino_acid_abundancy, align='center', alpha=0.5)
 	plt.xticks(pathway_pos, amino_acid_abundancy)
 	plt.ylabel('Average Amino Acid aundancy in %')
-	title_string = 'Amino acid ' + investigate_this_amino_acid + ' in pathways'
+	title_string = 'Amino_acid_' + investigate_this_amino_acid + '_in pathways'
 	plt.title(title_string)
-	plt.grid()
+	plt.grid(axis='y')
 
 	orig_high_abound = max(investigated_amino_acid_abundancy)
 	high_abound = round(orig_high_abound)
@@ -195,6 +226,9 @@ for aa in amino_acids:
 	plt.axis([0, 91, 0, high_abound])
 	name_of_fig = title_string + '.png'
 	plt.savefig(name_of_fig, bbox_inches='tight')
+	plt.close()
+	print_statement = 'Done plotting amino acid ' + aa
+	print(print_statement)
 ##########################################################################################
 #"""
 
