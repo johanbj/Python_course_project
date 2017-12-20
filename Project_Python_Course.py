@@ -148,7 +148,14 @@ for thepathway in unique_pathways:
 #########################################################################################
 #########################################################################################
 
-#""
+print(unique_pathways[29])
+print(' ')
+print(unique_pathways[2])
+
+
+KOLLA Antal protein gånger vikten?????
+
+"""
 # After having computed all the relevant data, I now want to do some
 # basic plotting in order to visualize my results.
 
@@ -157,29 +164,42 @@ import matplotlib.pyplot as plt
 ###################  PLOT AMOUNT OF PROTEINS PRESENT FOR ALL PATHWAYS  ###################
 
 number_of_proteins = []
+weights_of_proteins = []
+lengths_of_proteins = []
 
 for thepathway in unique_pathways:
 	data_from_pathway = Pathways_and_enzymes_analyzed[thepathway]
 	number_of_proteins.append(data_from_pathway[0])
+	weights_of_proteins.append(data_from_pathway[1])
+	lengths_of_proteins.append(data_from_pathway[2])
 
 number_of_proteins = number_of_proteins[:-1]
+weights_of_proteins = weights_of_proteins[:-1]
+lengths_of_proteins = lengths_of_proteins[:-1]
 
-pathway_pos = numpy.arange(1,len(number_of_proteins)+1)
-plt.bar(pathway_pos, number_of_proteins, align='center', alpha=0.5)
-plt.xticks(pathway_pos, number_of_proteins)
-plt.ylabel('Number of proteins')
-plt.title('Proteins in pathways')
-plt.grid(axis='y')
+data_tags = ['Number_of_proteins','Weights_of_proteins','Lengths_of_proteins']
+data_to_plot = {'Number_of_proteins': number_of_proteins,
+				'Weights_of_proteins': weights_of_proteins,
+				'Lengths_of_proteins': lengths_of_proteins}
 
-orig_high_abound = max(number_of_proteins)
-high_abound = round(orig_high_abound)
+for tag in data_tags:
+	pathway_pos = numpy.arange(1,len(number_of_proteins)+1)
+	plt.bar(pathway_pos, data_to_plot[tag], align='center', alpha=0.5)
+	plt.ylabel(tag)
+	title_line = tag + ' in pathways'
+	plt.title(title_line)
+	plt.grid(axis='y')
 
-if high_abound < orig_high_abound:
-	high_abound += 1
+	orig_high_abound = max(data_to_plot[tag])
+	high_abound = round(orig_high_abound)
 
-plt.axis([0, 90, 0, high_abound])
-plt.savefig('Number_of_proteins_in_pathways.png', bbox_inches='tight')
-plt.close()
+	if high_abound < orig_high_abound:
+		high_abound += 1
+
+	plt.axis([0, 90, 0, high_abound])
+	save_name = tag + '_in_pathways.png'
+	plt.savefig(save_name, bbox_inches='tight')
+	plt.close()
 
 
 #########################################################################################
@@ -220,7 +240,7 @@ for aa in amino_acids:
 	pathway_pos = numpy.arange(1,len(unique_pathways)+1)
 	amino_acid_abundancy = investigated_amino_acid_abundancy
 	plt.bar(pathway_pos, amino_acid_abundancy, align='center', alpha=0.5)
-	plt.xticks(pathway_pos, amino_acid_abundancy)
+	#plt.xticks(pathway_pos, amino_acid_abundancy)
 	plt.ylabel('Average Amino Acid aundancy in %')
 	title_string = 'Amino_acid_' + investigate_this_amino_acid + '_in pathways'
 	plt.title(title_string)
@@ -246,8 +266,17 @@ for aa in amino_acids:
 	boxplot_dataset.append(results_amino_acid_for_boxplot[aa])
 
 
-plt.boxplot(boxplot_dataset)
-plt.show()
+flierprops = dict(marker='.', markerfacecolor='black', markersize=1,linestyle='none')
+plt.boxplot(boxplot_dataset,flierprops=flierprops)
+plt.xlim([0,21])
+amino_acids_pos = numpy.arange(1,len(amino_acids)+1)
+amino_acid_abundancy = boxplot_dataset
+plt.xticks(amino_acids_pos, amino_acids)
+plt.grid()
+plt.ylabel('Abundance in pathway (%)')
+plt.title('Box plot representation of amino acid abundancies in pathways')
+plt.savefig('Box_plot_of_amino_acid_abundancies.png', bbox_inches='tight')
+plt.close()
 
 
 ##########################################################################################
