@@ -141,15 +141,17 @@ print(averages_of_enz)
 
 
 ################  PLOTTING DATA  #################
-import matplotlib.pyplot as plt; plt.rcdefaults()
+import matplotlib.pyplot as plt
 
 amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
-amino_acid_pos = numpy.arange(len(amino_acids))
+amino_acid_pos = numpy.arange(1,len(amino_acids)+1)
 amino_acid_abundancy = averages_of_enz[3:]
-plt.bar(amino_acid_pos, amino_acid_abundancy, align='center', alpha=0.5)
+plt.bar(amino_acid_pos, amino_acid_abundancy, width=0.5, align='center', alpha=0.5)
 plt.xticks(amino_acid_pos, amino_acids)
-plt.ylabel('Usage')
-plt.title('Programming language usage')
+plt.ylabel('Average Amino Acid aundancy in %')
+plt.title('Name of pathway')
+plt.grid()
+plt.axis([0, 21, 0, 10])
 plt.show()
 ###################################################
 
