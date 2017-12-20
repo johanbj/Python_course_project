@@ -163,7 +163,6 @@ for thepathway in unique_pathways:
 	number_of_proteins.append(data_from_pathway[0])
 
 number_of_proteins = number_of_proteins[:-1]
-print(number_of_proteins)
 
 pathway_pos = numpy.arange(1,len(number_of_proteins)+1)
 plt.bar(pathway_pos, number_of_proteins, align='center', alpha=0.5)
@@ -189,22 +188,32 @@ plt.close()
 
 ################  PLOT ABUNDANCE OF A GIVEN AMINO ACID FOR ALL PATHWAYS  #################
 amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
+results_amino_acid_for_boxplot = {}
+
+for aa in amino_acids:
+	results_amino_acid_for_boxplot[aa] = []
+
 
 for aa in amino_acids:
 	investigate_this_amino_acid = aa
-
 
 	# investigate_this_amino_acid = 'W'
 	# Input one of the above letters
 
 	INDEX = amino_acids.index(investigate_this_amino_acid)      # This feature is added because it is needed if the
-															# user would like to input a specific amino acid
+															    # user would like to input a specific amino acid
 
 	investigated_amino_acid_abundancy = []
 
 	for thepathway in unique_pathways:
 		data_from_pathway = Pathways_and_enzymes_analyzed[thepathway]
 		data_from_pathway = data_from_pathway[3:]
+
+		for aa_index in range(0,20,1):
+			old_values = results_amino_acid_for_boxplot[amino_acids[aa_index]]
+			old_values.append(data_from_pathway[aa_index])
+			results_amino_acid_for_boxplot[amino_acids[aa_index]] = old_values
+
 		investigated_amino_acid_abundancy.append(data_from_pathway[INDEX])
 
 
@@ -227,8 +236,20 @@ for aa in amino_acids:
 	name_of_fig = title_string + '.png'
 	plt.savefig(name_of_fig, bbox_inches='tight')
 	plt.close()
+
 	print_statement = 'Done plotting amino acid ' + aa
 	print(print_statement)
+
+
+boxplot_dataset = []
+for aa in amino_acids:
+	boxplot_dataset.append(results_amino_acid_for_boxplot[aa])
+
+
+plt.boxplot(boxplot_dataset)
+plt.show()
+
+
 ##########################################################################################
 #"""
 
