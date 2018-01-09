@@ -198,7 +198,7 @@ for tag in data_tags:
 	if high_abound < orig_high_abound:
 		high_abound += 1
 
-	plt.axis([0, 91, 0, high_abound])
+	plt.axis([0, 92, 0, high_abound])
 	save_name = tag + '_in_pathways.png'
 	plt.savefig(save_name, bbox_inches='tight')
 	plt.close()
@@ -224,7 +224,36 @@ for seq_length in collected_seqs:
 	lengths_of_proteins_check.append(len(seq_length))
 
 sort_lengths_of_proteins = numpy.argsort(lengths_of_proteins_check)
+sorted_lengths_of_proteins = sorted(lengths_of_proteins_check)
+#for i in range(0,4):
+#	print(collected_seqs[sort_lengths_of_proteins[i]])
 amino_acids_in_all_proteins = {}
+
+########  Plotting the different protein lengths
+
+prot_number = len(lengths_of_proteins_check) + 5
+pathway_pos = numpy.arange(5,prot_number)
+plt.plot(pathway_pos, sorted_lengths_of_proteins)
+#plt.bar(pathway_pos, amino_acids_in_all_proteins[aa], align='center', alpha=0.5)
+plt.ylabel('Protein lengths')
+title_string = 'Protein distribution'
+plt.title(title_string)
+plt.grid(axis='y')
+
+orig_high_abound = max(lengths_of_proteins_check)
+high_abound = round(orig_high_abound)
+
+if high_abound < orig_high_abound:
+	high_abound += 1
+
+prot_bound = prot_number + 10
+plt.axis([0, prot_bound, 0, high_abound])
+name_of_fig = title_string + '.png'
+plt.savefig(name_of_fig, bbox_inches='tight')
+plt.close()
+
+##################################################
+
 
 for letter in amino_acids:
 	list_of_amino_acids_protein_length = []
@@ -235,14 +264,18 @@ for letter in amino_acids:
 	amino_acids_in_all_proteins[letter] = list_of_amino_acids_protein_length
 
 
-##########  PLOT THE RESULTS FOR EACH AMINO ACID & AS A BOXPLOT
+##########  PLOT THE RESULTS FOR EACH AMINO ACID & PLOT AS A BOXPLOT
+
+boxplot_dataset_aa_in_proteins = []
+
+# Regular plot
 
 for aa in amino_acids:
-	prot_number = len(lengths_of_proteins_check) + 1
-	pathway_pos = numpy.arange(1,prot_number)
+	prot_number = len(lengths_of_proteins_check) + 5
+	pathway_pos = numpy.arange(5,prot_number)
 	amino_acid_abundancy = amino_acids_in_all_proteins[aa]
-	plt.bar(pathway_pos, amino_acid_abundancy, align='center', alpha=0.5)
-	#plt.xticks(pathway_pos, amino_acid_abundancy)
+	plt.plot(pathway_pos, amino_acids_in_all_proteins[aa])
+	#plt.bar(pathway_pos, amino_acids_in_all_proteins[aa], align='center', alpha=0.5)
 	plt.ylabel('Average Amino Acid aundancy in %')
 	title_string = 'Amino_acid_' + aa + '_in proteins'
 	plt.title(title_string)
@@ -254,7 +287,8 @@ for aa in amino_acids:
 	if high_abound < orig_high_abound:
 		high_abound += 1
 
-	plt.axis([0, prot_number, 0, high_abound])
+	prot_bound = prot_number + 10
+	plt.axis([0, prot_bound, 0, high_abound])
 	name_of_fig = title_string + '.png'
 	plt.savefig(name_of_fig, bbox_inches='tight')
 	plt.close()
@@ -262,13 +296,28 @@ for aa in amino_acids:
 	print_statement = 'Done plotting amino acid ' + aa + ' for proteins'
 	print(print_statement)
 
+	boxplot_dataset_aa_in_proteins.append(amino_acids_in_all_proteins[aa])
+
+
+# Boxplot
+
+flierprops = dict(marker='.', markerfacecolor='black', markersize=1,linestyle='none')	
+plt.boxplot(boxplot_dataset_aa_in_proteins,flierprops=flierprops,widths=0.75)
+plt.xlim([0,21])
+amino_acids_pos = numpy.arange(1,len(amino_acids)+1)
+plt.xticks(amino_acids_pos, amino_acids)
+plt.grid(axis='y')
+plt.ylabel('Abundance in protein (%)')
+plt.title('Box plot representation of amino acid abundancies in proteins')
+plt.savefig('Box_plot_of_amino_acid_abundancies_proteins.png', bbox_inches='tight')
+plt.close()
 
 
 ###########################################################################################################
 
 
 
-# Then check the amino acids
+# Then check the amino acids for each pathway
 
 ################  PLOT ABUNDANCE OF A GIVEN AMINO ACID FOR ALL PATHWAYS  #################
 amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
@@ -304,7 +353,6 @@ for aa in amino_acids:
 	pathway_pos = numpy.arange(1,len(unique_pathways)+1)
 	amino_acid_abundancy = investigated_amino_acid_abundancy
 	plt.bar(pathway_pos, amino_acid_abundancy, align='center', alpha=0.5)
-	#plt.xticks(pathway_pos, amino_acid_abundancy)
 	plt.ylabel('Average Amino Acid aundancy in %')
 	title_string = 'Amino_acid_' + investigate_this_amino_acid + '_in pathways'
 	plt.title(title_string)
@@ -316,7 +364,7 @@ for aa in amino_acids:
 	if high_abound < orig_high_abound:
 		high_abound += 1
 
-	plt.axis([0, 91, 0, high_abound])
+	plt.axis([0, 92, 0, high_abound])
 	name_of_fig = title_string + '.png'
 	plt.savefig(name_of_fig, bbox_inches='tight')
 	plt.close()
@@ -343,7 +391,7 @@ plt.xticks(amino_acids_pos, amino_acids)
 plt.grid(axis='y')
 plt.ylabel('Abundance in pathway (%)')
 plt.title('Box plot representation of amino acid abundancies in pathways')
-plt.savefig('Box_plot_of_amino_acid_abundancies.png', bbox_inches='tight')
+plt.savefig('Box_plot_of_amino_acid_abundancies_pathways.png', bbox_inches='tight')
 plt.close()
 
 
@@ -351,7 +399,8 @@ plt.close()
 
 ##########################################################################################
 
-# After having a look at the boxplots I will further examine the pathways 
+# After having a look at the plotted data I will further examine some features
+# For example I would like to view the protein which contains almost 25 % of Glutamate
 
 
 
@@ -359,20 +408,8 @@ plt.close()
 
 
 
-################  PLOTTING EXAMPLE DATA  #################
-#import matplotlib.pyplot as plt
 
-#amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
-#amino_acid_pos = numpy.arange(1,len(amino_acids)+1)
-#amino_acid_abundancy = Pathways_and_enzymes_analyzed[unique_pathways[5]][3:]
-#plt.bar(amino_acid_pos, amino_acid_abundancy, width=0.5, align='center', alpha=0.5)
-#plt.xticks(amino_acid_pos, amino_acids)
-#plt.ylabel('Average Amino Acid aundancy in %')
-#plt.title('Name of pathway')
-#plt.grid()
-#plt.axis([0, 21, 0, 10])
-#plt.show()
-##########################################################
+
 
 
 
