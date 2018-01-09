@@ -148,14 +148,10 @@ for thepathway in unique_pathways:
 #########################################################################################
 #########################################################################################
 
-print(unique_pathways[29])
-print(' ')
-print(unique_pathways[2])
+
+"" # Switch to turn off the code below, the other switch can be found further below
 
 
-KOLLA Antal protein gånger vikten?????
-
-"""
 # After having computed all the relevant data, I now want to do some
 # basic plotting in order to visualize my results.
 
@@ -166,21 +162,27 @@ import matplotlib.pyplot as plt
 number_of_proteins = []
 weights_of_proteins = []
 lengths_of_proteins = []
+number_times_lengths_of_proteins = []
 
 for thepathway in unique_pathways:
 	data_from_pathway = Pathways_and_enzymes_analyzed[thepathway]
 	number_of_proteins.append(data_from_pathway[0])
 	weights_of_proteins.append(data_from_pathway[1])
 	lengths_of_proteins.append(data_from_pathway[2])
+	number_times_lengths = data_from_pathway[0]*data_from_pathway[2]
+	number_times_lengths_of_proteins.append(number_times_lengths)
 
 number_of_proteins = number_of_proteins[:-1]
 weights_of_proteins = weights_of_proteins[:-1]
 lengths_of_proteins = lengths_of_proteins[:-1]
+number_times_lengths_of_proteins = number_times_lengths_of_proteins[:-1]
 
-data_tags = ['Number_of_proteins','Weights_of_proteins','Lengths_of_proteins']
+
+data_tags = ['Number_of_proteins','Weights_of_proteins','Lengths_of_proteins','Number_times_lengths_of_proteins']
 data_to_plot = {'Number_of_proteins': number_of_proteins,
 				'Weights_of_proteins': weights_of_proteins,
-				'Lengths_of_proteins': lengths_of_proteins}
+				'Lengths_of_proteins': lengths_of_proteins,
+				'Number_times_lengths_of_proteins': number_times_lengths_of_proteins}
 
 for tag in data_tags:
 	pathway_pos = numpy.arange(1,len(number_of_proteins)+1)
@@ -196,13 +198,75 @@ for tag in data_tags:
 	if high_abound < orig_high_abound:
 		high_abound += 1
 
-	plt.axis([0, 90, 0, high_abound])
+	plt.axis([0, 91, 0, high_abound])
 	save_name = tag + '_in_pathways.png'
 	plt.savefig(save_name, bbox_inches='tight')
 	plt.close()
 
 
-#########################################################################################
+###########################  CHECK THE 10 MOST EXPENSIVE PATHWAYS  #############################
+
+
+sort_index = numpy.argsort(number_times_lengths_of_proteins)
+printthis = sort_index[:-11:-1]
+
+for thisnumber in printthis:
+	print(unique_pathways[thisnumber])
+
+
+#####################  CHECK AMINO ACID ABUNDANCY IN ALL PROTEINS AT INCREASING SIZE  #####################
+
+amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
+
+lengths_of_proteins_check = []
+
+for seq_length in collected_seqs:
+	lengths_of_proteins_check.append(len(seq_length))
+
+sort_lengths_of_proteins = numpy.argsort(lengths_of_proteins_check)
+amino_acids_in_all_proteins = {}
+
+for letter in amino_acids:
+	list_of_amino_acids_protein_length = []
+	for sorted_length in sort_lengths_of_proteins:												
+		abundancy_of_amino_acid_protein_length = collected_seqs[sorted_length].count(letter)		# Count its presence in the indexed enzyme
+		abundancy_of_amino_acid_protein_length = (abundancy_of_amino_acid_protein_length/len(collected_seqs[sorted_length]))*100								
+		list_of_amino_acids_protein_length.append(abundancy_of_amino_acid_protein_length)			# Save the acquired value to that index
+	amino_acids_in_all_proteins[letter] = list_of_amino_acids_protein_length
+
+
+##########  PLOT THE RESULTS FOR EACH AMINO ACID & AS A BOXPLOT
+
+for aa in amino_acids:
+	prot_number = len(lengths_of_proteins_check) + 1
+	pathway_pos = numpy.arange(1,prot_number)
+	amino_acid_abundancy = amino_acids_in_all_proteins[aa]
+	plt.bar(pathway_pos, amino_acid_abundancy, align='center', alpha=0.5)
+	#plt.xticks(pathway_pos, amino_acid_abundancy)
+	plt.ylabel('Average Amino Acid aundancy in %')
+	title_string = 'Amino_acid_' + aa + '_in proteins'
+	plt.title(title_string)
+	plt.grid(axis='y')
+
+	orig_high_abound = max(amino_acid_abundancy)
+	high_abound = round(orig_high_abound)
+
+	if high_abound < orig_high_abound:
+		high_abound += 1
+
+	plt.axis([0, prot_number, 0, high_abound])
+	name_of_fig = title_string + '.png'
+	plt.savefig(name_of_fig, bbox_inches='tight')
+	plt.close()
+
+	print_statement = 'Done plotting amino acid ' + aa + ' for proteins'
+	print(print_statement)
+
+
+
+###########################################################################################################
+
+
 
 # Then check the amino acids
 
@@ -257,30 +321,42 @@ for aa in amino_acids:
 	plt.savefig(name_of_fig, bbox_inches='tight')
 	plt.close()
 
-	print_statement = 'Done plotting amino acid ' + aa
+	print_statement = 'Done plotting amino acid ' + aa + ' for pathways'
 	print(print_statement)
 
+
+################  CREATE A BOXPLOT FOR ABUNDANCIES OF ALL AMINO ACIDS IN THE PATHWAYS  #################
 
 boxplot_dataset = []
 for aa in amino_acids:
 	boxplot_dataset.append(results_amino_acid_for_boxplot[aa])
 
+#figg_width = [12,9]
+#plt.rcParams['figure.figsize'] = figg_width
 
-flierprops = dict(marker='.', markerfacecolor='black', markersize=1,linestyle='none')
-plt.boxplot(boxplot_dataset,flierprops=flierprops)
+flierprops = dict(marker='.', markerfacecolor='black', markersize=1,linestyle='none')	
+plt.boxplot(boxplot_dataset,flierprops=flierprops,widths=0.75)
 plt.xlim([0,21])
 amino_acids_pos = numpy.arange(1,len(amino_acids)+1)
 amino_acid_abundancy = boxplot_dataset
 plt.xticks(amino_acids_pos, amino_acids)
-plt.grid()
+plt.grid(axis='y')
 plt.ylabel('Abundance in pathway (%)')
 plt.title('Box plot representation of amino acid abundancies in pathways')
 plt.savefig('Box_plot_of_amino_acid_abundancies.png', bbox_inches='tight')
 plt.close()
 
 
-##########################################################################################
 #"""
+
+##########################################################################################
+
+# After having a look at the boxplots I will further examine the pathways 
+
+
+
+
+
 
 
 ################  PLOTTING EXAMPLE DATA  #################
