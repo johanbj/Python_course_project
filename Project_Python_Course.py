@@ -10,6 +10,7 @@
 
 ############  READ THE TEXT FILE CONTAINING INFORMATION ON PATHWAYS THAT PROTEINS PARTICIPATE IN  ############
 
+
 read_the_pathways = '../Protein_Pathways.txt'
 
 protein_pathways = open(read_the_pathways,'r')
@@ -35,6 +36,9 @@ for pathway_name in collection_of_pathways:
 
 protein_pathways.close()     # Close the file
 
+unique_pathways = unique_pathways[:-1]          # Remove the last element which is a blank character
+
+
 ###############################################################################################################
 
 # Next task is to go through all the unique pathway names & note which protein that
@@ -43,7 +47,11 @@ protein_pathways.close()     # Close the file
 
 ##########  MATCH AND ORDER PROTEIN-INDEX CORRESPONDING TO EACH PATHWAY  ##########
 
+
 Pathways_and_enzymes = {}
+cutoff_enzymes_per_pathway = 1
+save_these_pathways = []
+pathway_index = 0
 
 for p_name in unique_pathways:               # Go through each unique pathway name
 	i = 1
@@ -53,7 +61,20 @@ for p_name in unique_pathways:               # Go through each unique pathway na
 			hits.append(i)					 # If yes, then store the enzyme index (first enzyme has index 1)
 
 		i += 1
-	Pathways_and_enzymes[p_name] = hits
+
+	if len(hits) >= cutoff_enzymes_per_pathway:
+		Pathways_and_enzymes[p_name] = hits
+		save_these_pathways.append(pathway_index)
+	
+	pathway_index += 1
+
+updated_unique_pathways = []
+
+for pathway_to_save in save_these_pathways:
+	updated_unique_pathways.append(unique_pathways[pathway_to_save])
+	
+unique_pathways = updated_unique_pathways
+
 
 ###################################################################################
 
@@ -65,6 +86,7 @@ for p_name in unique_pathways:               # Go through each unique pathway na
 
 
 ##########  CALCULATE THE AVERAGE ENZYME MOLECULAR WEIGHT OF THE PATHWAY  ##########
+
 
 ####  EXTRACT MOLECULAR WEIGHTS OF ENZYMES  ####
 read_the_MWs = '../Protein_MWs.txt'         
@@ -91,7 +113,21 @@ for seq in protein_seqs:
 protein_seqs.close()
 ################################################
 
+########  EXTRACT GENENAMES OF ENZYMES  ########
+read_the_genenames = '../Protein_GeneNames.txt'         
+protein_genenames = open(read_the_genenames,'r')
+collected_genenames = []
+
+for genename in protein_genenames:
+	genename = genename.rstrip()
+	collected_genenames.append(genename)
+
+protein_genenames.close()
+################################################
+
+
 ###################################################################################
+
 
 # Now when the information about all enzymes has been provided, the script
 # will calculate the data for each pathway and its connected enzymes
@@ -99,9 +135,13 @@ protein_seqs.close()
 
 ################  CALCULATING DATA  ################
 
+
 import numpy
 
-###  FUNCTION THAT COLLECTS ALL INTERESTING DATA
+
+######  FUNCTION THAT COLLECTS ALL INTERESTING DATA
+
+
 def averages_of_enzymes(list_of_enzymes):      # Defining a function that will do ALL calculations
 	total_weight = 0																					# I
 	total_length = 0																					# N
@@ -128,7 +168,9 @@ def averages_of_enzymes(list_of_enzymes):      # Defining a function that will d
 	averages_of_enz = [len(list_of_enzymes),average_ez_weight,average_ez_length]    # Collect all data
 	averages_of_enz.extend(list_of_amino_acids)										# Collect all data
 	return(averages_of_enz)
-################################################
+
+
+####################################################
 
 
 # As the function for calculating the data, that I am interested in, is complete I go through all the
@@ -136,6 +178,7 @@ def averages_of_enzymes(list_of_enzymes):      # Defining a function that will d
 # The dictionary will contain data on each pathway, in the following order; number of enzymes in pathway,
 # average enzyme weight, average enzyme length percentage of different amino acids needed in the order
 # A, R, N, D, C, E, Q, G, H, I, L, K, M, F, P, S, T, W, Y, V
+
 
 Pathways_and_enzymes_analyzed = {}
 
@@ -145,11 +188,9 @@ for thepathway in unique_pathways:
 	averages_of_enz = averages_of_enzymes(used_enzymes)
 	Pathways_and_enzymes_analyzed[thepathway]=averages_of_enz
 
+
 #########################################################################################
 #########################################################################################
-
-
-"" # Switch to turn off the code below, the other switch can be found further below
 
 
 # After having computed all the relevant data, I now want to do some
@@ -157,7 +198,9 @@ for thepathway in unique_pathways:
 
 import matplotlib.pyplot as plt
 
+
 ###################  PLOT AMOUNT OF PROTEINS PRESENT FOR ALL PATHWAYS  ###################
+
 
 number_of_proteins = []
 weights_of_proteins = []
@@ -172,10 +215,10 @@ for thepathway in unique_pathways:
 	number_times_lengths = data_from_pathway[0]*data_from_pathway[2]
 	number_times_lengths_of_proteins.append(number_times_lengths)
 
-number_of_proteins = number_of_proteins[:-1]
-weights_of_proteins = weights_of_proteins[:-1]
-lengths_of_proteins = lengths_of_proteins[:-1]
-number_times_lengths_of_proteins = number_times_lengths_of_proteins[:-1]
+#number_of_proteins = number_of_proteins[:-1]
+#weights_of_proteins = weights_of_proteins[:-1]
+#lengths_of_proteins = lengths_of_proteins[:-1]
+#number_times_lengths_of_proteins = number_times_lengths_of_proteins[:-1]
 
 
 data_tags = ['Number_of_proteins','Weights_of_proteins','Lengths_of_proteins','Number_times_lengths_of_proteins']
@@ -185,7 +228,7 @@ data_to_plot = {'Number_of_proteins': number_of_proteins,
 				'Number_times_lengths_of_proteins': number_times_lengths_of_proteins}
 
 for tag in data_tags:
-	pathway_pos = numpy.arange(1,len(number_of_proteins)+1)
+	pathway_pos = numpy.arange(1,len(unique_pathways)+1)
 	plt.bar(pathway_pos, data_to_plot[tag], align='center', alpha=0.5)
 	plt.ylabel(tag)
 	title_line = tag + ' in pathways'
@@ -198,7 +241,7 @@ for tag in data_tags:
 	if high_abound < orig_high_abound:
 		high_abound += 1
 
-	plt.axis([0, 92, 0, high_abound])
+	plt.axis([0, (len(unique_pathways)+1), 0, high_abound])
 	save_name = tag + '_in_pathways.png'
 	plt.savefig(save_name, bbox_inches='tight')
 	plt.close()
@@ -216,6 +259,7 @@ for thisnumber in printthis:
 
 #####################  CHECK AMINO ACID ABUNDANCY IN ALL PROTEINS AT INCREASING SIZE  #####################
 
+
 amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
 
 lengths_of_proteins_check = []
@@ -225,16 +269,14 @@ for seq_length in collected_seqs:
 
 sort_lengths_of_proteins = numpy.argsort(lengths_of_proteins_check)
 sorted_lengths_of_proteins = sorted(lengths_of_proteins_check)
-#for i in range(0,4):
-#	print(collected_seqs[sort_lengths_of_proteins[i]])
-amino_acids_in_all_proteins = {}
+
 
 ########  Plotting the different protein lengths
+
 
 prot_number = len(lengths_of_proteins_check) + 5
 pathway_pos = numpy.arange(5,prot_number)
 plt.plot(pathway_pos, sorted_lengths_of_proteins)
-#plt.bar(pathway_pos, amino_acids_in_all_proteins[aa], align='center', alpha=0.5)
 plt.ylabel('Protein lengths')
 title_string = 'Protein distribution'
 plt.title(title_string)
@@ -252,8 +294,11 @@ name_of_fig = title_string + '.png'
 plt.savefig(name_of_fig, bbox_inches='tight')
 plt.close()
 
+
 ##################################################
 
+
+amino_acids_in_all_proteins = {}
 
 for letter in amino_acids:
 	list_of_amino_acids_protein_length = []
@@ -270,11 +315,20 @@ boxplot_dataset_aa_in_proteins = []
 
 # Regular plot
 
+
+from scipy import stats
+
 for aa in amino_acids:
+	slope, intercept, r_value, p_value, std_err = stats.linregress(pathway_pos,amino_acids_in_all_proteins[aa])
 	prot_number = len(lengths_of_proteins_check) + 5
 	pathway_pos = numpy.arange(5,prot_number)
 	amino_acid_abundancy = amino_acids_in_all_proteins[aa]
-	plt.plot(pathway_pos, amino_acids_in_all_proteins[aa])
+	fit = numpy.polyfit(pathway_pos,amino_acids_in_all_proteins[aa],1)
+	fit_fn = numpy.poly1d(fit)
+	plt.scatter(pathway_pos, amino_acids_in_all_proteins[aa],s=1,c='blue',marker='.')
+	plt.plot(pathway_pos,fit_fn(pathway_pos),c='black')
+	text_in_plot = 'r-squared: ' + str(r_value**2)
+	plt.text(10, 10, text_in_plot, fontsize=10)
 	#plt.bar(pathway_pos, amino_acids_in_all_proteins[aa], align='center', alpha=0.5)
 	plt.ylabel('Average Amino Acid aundancy in %')
 	title_string = 'Amino_acid_' + aa + '_in proteins'
@@ -364,7 +418,7 @@ for aa in amino_acids:
 	if high_abound < orig_high_abound:
 		high_abound += 1
 
-	plt.axis([0, 92, 0, high_abound])
+	plt.axis([0, (len(unique_pathways)+1), 0, high_abound])
 	name_of_fig = title_string + '.png'
 	plt.savefig(name_of_fig, bbox_inches='tight')
 	plt.close()
@@ -379,8 +433,6 @@ boxplot_dataset = []
 for aa in amino_acids:
 	boxplot_dataset.append(results_amino_acid_for_boxplot[aa])
 
-#figg_width = [12,9]
-#plt.rcParams['figure.figsize'] = figg_width
 
 flierprops = dict(marker='.', markerfacecolor='black', markersize=1,linestyle='none')	
 plt.boxplot(boxplot_dataset,flierprops=flierprops,widths=0.75)
@@ -395,18 +447,103 @@ plt.savefig('Box_plot_of_amino_acid_abundancies_pathways.png', bbox_inches='tigh
 plt.close()
 
 
-#"""
-
 ##########################################################################################
 
+
+
+########################################
+#####   EXAMPLE ANALYSIS OF DATA   #####
+########################################
+
+
+if cutoff_enzymes_per_pathway == 5:
+
 # After having a look at the plotted data I will further examine some features
-# For example I would like to view the protein which contains almost 25 % of Glutamate
 
 
+# I would like to view the protein that has the highest abundancy for each
+# amino acid. Since each amino acid, by looking at the boxplot, seem to have
+# some high "outlier"
+
+# Isoleucine, Leucine and Phenylalanine all have peak abundancies in pathway
+# number 64, therefore I will look closer into this one.
+
+# I would like to investigate the pathway that only has 3 % of Aspartate
+
+##################
+#######  High abundancy proteins
+
+#######  Sort the protein sequences so that they are in order of ascending length
+	sorted_sequences = numpy.argsort(lengths_of_proteins_check)
+	sorted_collected_seqs = []
+	sorted_collected_genenames = []
+
+	for number_from_sorted_sequences in sorted_sequences:
+		sorted_collected_seqs.append(collected_seqs[number_from_sorted_sequences])
+		sorted_collected_genenames.append(collected_genenames[number_from_sorted_sequences])
+#################################################################################
+
+#####  Print the protein sequence of the enzyme that contains the highest amount of each amino acid #####
+	amino_acids = ('A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V')
+	for aa in amino_acids:
+		sorted_abundancies_for_amino_acid = numpy.argsort(amino_acids_in_all_proteins[aa])
+		print(' ')
+		print('The protein that has the highest percentual amount of ',aa, ' is: ',sorted_collected_genenames[sorted_abundancies_for_amino_acid[-1]])
+		print(' ')
+		print('Which has the following amino acid sequence:')
+		print(' ')
+		print(sorted_collected_seqs[sorted_abundancies_for_amino_acid[-1]])
+#########################################################################################################
+
+##################
 
 
+###############
+#######  Pathway 64 (Isoleucine, Leucine and Phenylalanine)
+
+# I investigate the seemingly interesting pathway 64
+
+	check_this_pathway = 64
+
+	print(' ')
+	print('The pathway high in Isoleucine, Leucine and Phenylalanine is:')
+	print(' ')
+	print(unique_pathways[(check_this_pathway-1)])
+	print(' ')
+	print('This pathway concists of the proteins:')
+	print(' ')
+
+	enzymes_in_this_pathway = Pathways_and_enzymes[unique_pathways[(check_this_pathway-1)]]
+
+	for enzyme_number in enzymes_in_this_pathway:
+		print(collected_genenames[enzyme_number-1])
+		print(' ')
+
+###############
 
 
+###############
+#######  Aspartate
+# Instead of searching in which pathway Aspartate has its lowest abundancy I choose instead to
+# look at the plot generated by this script, which shows that I should investigate pathway 65
+
+	check_this_pathway_aspartate = 65
+
+	print(' ')
+	print('The pathway low in Aspartate is:')
+	print(' ')
+	print(unique_pathways[(check_this_pathway_aspartate-1)])
+	print(' ')
+	print('This pathway concists of the proteins:')
+	print(' ')
+
+	enzymes_in_this_pathway = Pathways_and_enzymes[unique_pathways[(check_this_pathway_aspartate-1)]]
+
+	for enzyme_number in enzymes_in_this_pathway:
+		print(collected_genenames[enzyme_number-1])
+		print(' ')
+
+###############
 
 
 
