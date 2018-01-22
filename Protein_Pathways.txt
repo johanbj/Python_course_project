@@ -1,0 +1,769 @@
+sce00NNN  None
+sce00920  Sulfur metabolism
+sce00920  Sulfur metabolism
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00620  Pyruvate metabolism
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00350  Tyrosine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00350  Tyrosine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00NNN  None
+sce00340  Histidine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce00230  Purine metabolism sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00240  Pyrimidine metabolism
+sce00730  Thiamine metabolism sce00740  Riboflavin metabolism sce04111  Cell cycle - yeast
+sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism
+sce00220  Arginine biosynthesis sce00330  Arginine and proline metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00340  Histidine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00020  Citrate cycle (TCA cycle) sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids sce03018  RNA degradation
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids sce03018  RNA degradation
+sce00260  Glycine, serine and threonine metabolism sce00290  Valine, leucine and isoleucine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00260  Glycine, serine and threonine metabolism sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce00051  Fructose and mannose metabolism sce00562  Inositol phosphate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce00260  Glycine, serine and threonine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00450  Selenocompound metabolism sce00970  Aminoacyl-tRNA biosynthesis
+sce00240  Pyrimidine metabolism
+sce00240  Pyrimidine metabolism sce00250  Alanine, aspartate and glutamate metabolism
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00230  Purine metabolism sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism sce00670  One carbon pool by folate sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00290  Valine, leucine and isoleucine biosynthesis sce00660  C5-Branched dibasic acid metabolism sce01110  Biosynthesis of secondary metabolites sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00052  Galactose metabolism sce00520  Amino sugar and nucleotide sugar metabolism
+sce00010  Glycolysis / Gluconeogenesis sce00052  Galactose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce00051  Fructose and mannose metabolism sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00010  Glycolysis / Gluconeogenesis sce00051  Fructose and mannose metabolism sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00190  Oxidative phosphorylation
+sce00220  Arginine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00190  Oxidative phosphorylation
+sce00270  Cysteine and methionine metabolism sce00450  Selenocompound metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00270  Cysteine and methionine metabolism sce00920  Sulfur metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00380  Tryptophan metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce04011  MAPK signaling pathway - yeast sce04146  Peroxisome sce04213  Longevity regulating pathway - multiple species
+sce00290  Valine, leucine and isoleucine biosynthesis sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00562  Inositol phosphate metabolism sce00564  Glycerophospholipid metabolism sce04070  Phosphatidylinositol signaling system
+sce00290  Valine, leucine and isoleucine biosynthesis sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00340  Histidine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00760  Nicotinate and nicotinamide metabolism sce04213  Longevity regulating pathway - multiple species
+sce00500  Starch and sucrose metabolism sce01110  Biosynthesis of secondary metabolites
+sce00240  Pyrimidine metabolism
+sce00230  Purine metabolism
+sce00240  Pyrimidine metabolism sce00670  One carbon pool by folate
+sce00190  Oxidative phosphorylation
+sce00061  Fatty acid biosynthesis sce01212  Fatty acid metabolism
+sce00230  Purine metabolism sce00730  Thiamine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00340  Histidine metabolism sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00670  One carbon pool by folate
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00350  Tyrosine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system sce04138  Autophagy - yeast
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00240  Pyrimidine metabolism sce00250  Alanine, aspartate and glutamate metabolism
+sce00240  Pyrimidine metabolism sce00250  Alanine, aspartate and glutamate metabolism
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce00910  Nitrogen metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00290  Valine, leucine and isoleucine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00250  Alanine, aspartate and glutamate metabolism sce00330  Arginine and proline metabolism
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce04146  Peroxisome
+sce00051  Fructose and mannose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00290  Valine, leucine and isoleucine biosynthesis sce00650  Butanoate metabolism sce00660  C5-Branched dibasic acid metabolism sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00300  Lysine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00670  One carbon pool by folate sce00790  Folate biosynthesis
+sce00330  Arginine and proline metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00520  Amino sugar and nucleotide sugar metabolism
+sce00500  Starch and sucrose metabolism
+sce00190  Oxidative phosphorylation
+sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00052  Galactose metabolism sce00520  Amino sugar and nucleotide sugar metabolism
+sce00330  Arginine and proline metabolism sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00260  Glycine, serine and threonine metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00270  Cysteine and methionine metabolism sce01130  Biosynthesis of antibiotics
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00190  Oxidative phosphorylation
+sce00230  Purine metabolism sce00261  Monobactam biosynthesis sce00450  Selenocompound metabolism sce00920  Sulfur metabolism sce01130  Biosynthesis of antibiotics
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism sce04113  Meiosis - yeast sce04213  Longevity regulating pathway - multiple species
+sce00020  Citrate cycle (TCA cycle) sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00051  Fructose and mannose metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00330  Arginine and proline metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00670  One carbon pool by folate
+sce00190  Oxidative phosphorylation
+sce00010  Glycolysis / Gluconeogenesis sce00020  Citrate cycle (TCA cycle) sce00260  Glycine, serine and threonine metabolism sce00280  Valine, leucine and isoleucine degradation sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism sce00480  Glutathione metabolism
+sce00260  Glycine, serine and threonine metabolism sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00NNN  None
+sce00NNN  None
+sce00NNN  None
+sce00NNN  None
+sce00NNN  None
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00350  Tyrosine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00190  Oxidative phosphorylation
+sce00NNN  None
+sce00100  Steroid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00270  Cysteine and methionine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00260  Glycine, serine and threonine metabolism sce00261  Monobactam biosynthesis sce00270  Cysteine and methionine metabolism sce00300  Lysine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00030  Pentose phosphate pathway sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00730  Thiamine metabolism sce00790  Folate biosynthesis
+sce00562  Inositol phosphate metabolism sce01130  Biosynthesis of antibiotics
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00010  Glycolysis / Gluconeogenesis sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00440  Phosphonate and phosphinate metabolism sce00564  Glycerophospholipid metabolism
+sce00240  Pyrimidine metabolism
+sce00260  Glycine, serine and threonine metabolism sce00261  Monobactam biosynthesis sce00270  Cysteine and methionine metabolism sce00300  Lysine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00071  Fatty acid degradation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism sce04146  Peroxisome
+sce00510  N-Glycan biosynthesis
+sce00561  Glycerolipid metabolism
+sce00520  Amino sugar and nucleotide sugar metabolism
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00051  Fructose and mannose metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00250  Alanine, aspartate and glutamate metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01130  Biosynthesis of antibiotics
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00030  Pentose phosphate pathway sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00380  Tryptophan metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce04011  MAPK signaling pathway - yeast sce04146  Peroxisome sce04213  Longevity regulating pathway - multiple species
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00230  Purine metabolism
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00240  Pyrimidine metabolism
+sce00500  Starch and sucrose metabolism
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00260  Glycine, serine and threonine metabolism sce00750  Vitamin B6 metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00010  Glycolysis / Gluconeogenesis sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00230  Purine metabolism sce00920  Sulfur metabolism
+sce00NNN  None
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00510  N-Glycan biosynthesis sce00513  Various types of N-glycan biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00051  Fructose and mannose metabolism sce00052  Galactose metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids sce03018  RNA degradation
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00051  Fructose and mannose metabolism sce00052  Galactose metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids sce03018  RNA degradation
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00260  Glycine, serine and threonine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00020  Citrate cycle (TCA cycle) sce00270  Cysteine and methionine metabolism sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00250  Alanine, aspartate and glutamate metabolism sce00280  Valine, leucine and isoleucine degradation sce00410  beta-Alanine metabolism sce00640  Propanoate metabolism sce00650  Butanoate metabolism
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce00051  Fructose and mannose metabolism sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00440  Phosphonate and phosphinate metabolism sce00564  Glycerophospholipid metabolism
+sce00920  Sulfur metabolism
+sce00220  Arginine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00240  Pyrimidine metabolism
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00061  Fatty acid biosynthesis sce01212  Fatty acid metabolism
+sce00020  Citrate cycle (TCA cycle) sce00310  Lysine degradation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00270  Cysteine and methionine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00020  Citrate cycle (TCA cycle) sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation
+sce00510  N-Glycan biosynthesis
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00240  Pyrimidine metabolism
+sce00564  Glycerophospholipid metabolism
+sce00020  Citrate cycle (TCA cycle) sce00310  Lysine degradation sce00380  Tryptophan metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce01040  Biosynthesis of unsaturated fatty acids sce01212  Fatty acid metabolism
+sce00270  Cysteine and methionine metabolism sce00330  Arginine and proline metabolism
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00190  Oxidative phosphorylation
+sce00760  Nicotinate and nicotinamide metabolism
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism sce00480  Glutathione metabolism
+sce00190  Oxidative phosphorylation sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00071  Fatty acid degradation sce00380  Tryptophan metabolism
+sce00NNN  None
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism sce00480  Glutathione metabolism
+sce00020  Citrate cycle (TCA cycle) sce00190  Oxidative phosphorylation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01200  Carbon metabolism
+sce00020  Citrate cycle (TCA cycle) sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids sce04146  Peroxisome
+sce00900  Terpenoid backbone biosynthesis sce01130  Biosynthesis of antibiotics
+sce00230  Purine metabolism
+sce00020  Citrate cycle (TCA cycle) sce00270  Cysteine and methionine metabolism sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00440  Phosphonate and phosphinate metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00NNN  None
+sce04136  Autophagy - other sce04138  Autophagy - yeast
+sce00190  Oxidative phosphorylation
+sce00230  Purine metabolism
+sce00450  Selenocompound metabolism sce00970  Aminoacyl-tRNA biosynthesis
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system sce04136  Autophagy - other sce04138  Autophagy - yeast sce04145  Phagosome
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00030  Pentose phosphate pathway sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00500  Starch and sucrose metabolism
+sce00600  Sphingolipid metabolism
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce00270  Cysteine and methionine metabolism sce00330  Arginine and proline metabolism sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00500  Starch and sucrose metabolism
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00730  Thiamine metabolism sce00740  Riboflavin metabolism
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00600  Sphingolipid metabolism sce04138  Autophagy - yeast
+sce00100  Steroid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00030  Pentose phosphate pathway
+sce00230  Purine metabolism
+sce00100  Steroid biosynthesis sce01130  Biosynthesis of antibiotics
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00NNN  None
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce00040  Pentose and glucuronate interconversions sce00561  Glycerolipid metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00260  Glycine, serine and threonine metabolism sce00270  Cysteine and methionine metabolism sce00290  Valine, leucine and isoleucine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00564  Glycerophospholipid metabolism
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00290  Valine, leucine and isoleucine biosynthesis sce00650  Butanoate metabolism sce00660  C5-Branched dibasic acid metabolism sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00100  Steroid biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00230  Purine metabolism sce00730  Thiamine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00NNN  None
+sce00500  Starch and sucrose metabolism
+sce00240  Pyrimidine metabolism
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00130  Ubiquinone and other terpenoid-quinone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00NNN  None
+sce00071  Fatty acid degradation sce00280  Valine, leucine and isoleucine degradation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01212  Fatty acid metabolism sce04146  Peroxisome
+sce00514  Other types of O-glycan biosynthesis
+sce00514  Other types of O-glycan biosynthesis
+sce00190  Oxidative phosphorylation
+sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01200  Carbon metabolism
+sce00020  Citrate cycle (TCA cycle) sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00240  Pyrimidine metabolism
+sce00240  Pyrimidine metabolism
+sce00561  Glycerolipid metabolism
+sce00600  Sphingolipid metabolism
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00020  Citrate cycle (TCA cycle) sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00520  Amino sugar and nucleotide sugar metabolism
+sce00450  Selenocompound metabolism
+sce00900  Terpenoid backbone biosynthesis sce01130  Biosynthesis of antibiotics
+sce00100  Steroid biosynthesis sce00909  Sesquiterpenoid and triterpenoid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00051  Fructose and mannose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00240  Pyrimidine metabolism
+sce00061  Fatty acid biosynthesis sce00071  Fatty acid degradation sce01212  Fatty acid metabolism sce04146  Peroxisome
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00190  Oxidative phosphorylation
+sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01200  Carbon metabolism
+sce00NNN  None
+sce00260  Glycine, serine and threonine metabolism sce00270  Cysteine and methionine metabolism sce00300  Lysine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00260  Glycine, serine and threonine metabolism sce00270  Cysteine and methionine metabolism sce00450  Selenocompound metabolism sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00514  Other types of O-glycan biosynthesis sce00515  Mannose type O-glycan biosynthesis
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00500  Starch and sucrose metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00920  Sulfur metabolism sce01130  Biosynthesis of antibiotics
+sce00561  Glycerolipid metabolism
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00330  Arginine and proline metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00330  Arginine and proline metabolism sce00332  Carbapenem biosynthesis sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce00910  Nitrogen metabolism sce01230  Biosynthesis of amino acids
+sce00620  Pyruvate metabolism
+sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00100  Steroid biosynthesis sce01130  Biosynthesis of antibiotics
+sce00100  Steroid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00500  Starch and sucrose metabolism
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00230  Purine metabolism
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00130  Ubiquinone and other terpenoid-quinone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system sce04933  AGE-RAGE signaling pathway in diabetic complications
+sce00020  Citrate cycle (TCA cycle) sce00270  Cysteine and methionine metabolism sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00780  Biotin metabolism
+sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism
+sce00100  Steroid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00190  Oxidative phosphorylation
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce00020  Citrate cycle (TCA cycle) sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00100  Steroid biosynthesis sce00909  Sesquiterpenoid and triterpenoid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00270  Cysteine and methionine metabolism sce00480  Glutathione metabolism
+sce00220  Arginine biosynthesis sce00791  Atrazine degradation
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce04146  Peroxisome
+sce00260  Glycine, serine and threonine metabolism sce00270  Cysteine and methionine metabolism sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00500  Starch and sucrose metabolism
+sce00051  Fructose and mannose metabolism
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00NNN  None
+sce00NNN  None
+sce00NNN  None
+sce00270  Cysteine and methionine metabolism
+sce00NNN  None
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00350  Tyrosine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00670  One carbon pool by folate sce00970  Aminoacyl-tRNA biosynthesis
+sce04146  Peroxisome
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00040  Pentose and glucuronate interconversions sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01130  Biosynthesis of antibiotics
+sce00061  Fatty acid biosynthesis sce00620  Pyruvate metabolism sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00620  Pyruvate metabolism
+sce00030  Pentose phosphate pathway sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00NNN  None
+sce00740  Riboflavin metabolism
+sce00030  Pentose phosphate pathway sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00240  Pyrimidine metabolism
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce00430  Taurine and hypotaurine metabolism sce00910  Nitrogen metabolism
+sce00260  Glycine, serine and threonine metabolism sce00750  Vitamin B6 metabolism sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00052  Galactose metabolism sce00230  Purine metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00440  Phosphonate and phosphinate metabolism sce00564  Glycerophospholipid metabolism
+sce00020  Citrate cycle (TCA cycle) sce00190  Oxidative phosphorylation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00NNN  None
+sce00340  Histidine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00514  Other types of O-glycan biosynthesis sce00515  Mannose type O-glycan biosynthesis
+sce00100  Steroid biosynthesis
+sce00NNN  None
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system sce04145  Phagosome
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00730  Thiamine metabolism
+sce00NNN  None
+sce00040  Pentose and glucuronate interconversions sce00051  Fructose and mannose metabolism
+sce00061  Fatty acid biosynthesis sce00780  Biotin metabolism sce01040  Biosynthesis of unsaturated fatty acids sce01130  Biosynthesis of antibiotics sce01212  Fatty acid metabolism
+sce00730  Thiamine metabolism sce00740  Riboflavin metabolism
+sce00790  Folate biosynthesis
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00620  Pyruvate metabolism sce01200  Carbon metabolism
+sce00480  Glutathione metabolism
+sce00NNN  None
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00770  Pantothenate and CoA biosynthesis
+sce00NNN  None
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites sce04144  Endocytosis
+sce00010  Glycolysis / Gluconeogenesis sce00260  Glycine, serine and threonine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00500  Starch and sucrose metabolism
+sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00100  Steroid biosynthesis sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00052  Galactose metabolism sce00230  Purine metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00790  Folate biosynthesis
+sce00260  Glycine, serine and threonine metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce00670  One carbon pool by folate sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00260  Glycine, serine and threonine metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce00670  One carbon pool by folate sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00562  Inositol phosphate metabolism sce04011  MAPK signaling pathway - yeast sce04070  Phosphatidylinositol signaling system
+sce00020  Citrate cycle (TCA cycle) sce00190  Oxidative phosphorylation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00190  Oxidative phosphorylation
+sce00260  Glycine, serine and threonine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism sce00670  One carbon pool by folate sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce04122  Sulfur relay system
+sce00030  Pentose phosphate pathway sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00740  Riboflavin metabolism sce00790  Folate biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00250  Alanine, aspartate and glutamate metabolism sce00310  Lysine degradation sce00350  Tyrosine metabolism sce00650  Butanoate metabolism sce00760  Nicotinate and nicotinamide metabolism
+sce00062  Fatty acid elongation sce01212  Fatty acid metabolism
+sce00NNN  None
+sce00750  Vitamin B6 metabolism
+sce00190  Oxidative phosphorylation
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00350  Tyrosine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00NNN  None
+sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00514  Other types of O-glycan biosynthesis
+sce00NNN  None
+sce00NNN  None
+sce00480  Glutathione metabolism
+sce00740  Riboflavin metabolism sce01110  Biosynthesis of secondary metabolites
+sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism
+sce00380  Tryptophan metabolism
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites sce04070  Phosphatidylinositol signaling system
+sce00NNN  None
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00NNN  None
+sce00600  Sphingolipid metabolism
+sce00600  Sphingolipid metabolism
+sce00500  Starch and sucrose metabolism
+sce00500  Starch and sucrose metabolism
+sce00100  Steroid biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00030  Pentose phosphate pathway sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism
+sce00240  Pyrimidine metabolism
+sce00520  Amino sugar and nucleotide sugar metabolism sce01130  Biosynthesis of antibiotics
+sce00500  Starch and sucrose metabolism sce04011  MAPK signaling pathway - yeast
+sce00340  Histidine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00030  Pentose phosphate pathway sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00600  Sphingolipid metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00040  Pentose and glucuronate interconversions
+sce00030  Pentose phosphate pathway sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00NNN  None
+sce00NNN  None
+sce00760  Nicotinate and nicotinamide metabolism
+sce00564  Glycerophospholipid metabolism
+sce00450  Selenocompound metabolism
+sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00030  Pentose phosphate pathway sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00270  Cysteine and methionine metabolism sce00280  Valine, leucine and isoleucine degradation sce00290  Valine, leucine and isoleucine biosynthesis sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00740  Riboflavin metabolism sce01110  Biosynthesis of secondary metabolites
+sce00NNN  None
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites
+sce00600  Sphingolipid metabolism
+sce00562  Inositol phosphate metabolism sce04011  MAPK signaling pathway - yeast sce04070  Phosphatidylinositol signaling system sce04139  Mitophagy - yeast sce04144  Endocytosis
+sce00300  Lysine biosynthesis sce00310  Lysine degradation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00300  Lysine biosynthesis sce00310  Lysine degradation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00061  Fatty acid biosynthesis sce00071  Fatty acid degradation sce01212  Fatty acid metabolism sce04146  Peroxisome
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00564  Glycerophospholipid metabolism
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00061  Fatty acid biosynthesis sce00071  Fatty acid degradation sce01212  Fatty acid metabolism sce04146  Peroxisome
+sce00290  Valine, leucine and isoleucine biosynthesis sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00061  Fatty acid biosynthesis sce00780  Biotin metabolism sce01212  Fatty acid metabolism
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00760  Nicotinate and nicotinamide metabolism
+sce00920  Sulfur metabolism
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce00910  Nitrogen metabolism
+sce00650  Butanoate metabolism
+sce00260  Glycine, serine and threonine metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00270  Cysteine and methionine metabolism
+sce00620  Pyruvate metabolism
+sce00750  Vitamin B6 metabolism
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism
+sce00860  Porphyrin and chlorophyll metabolism sce01110  Biosynthesis of secondary metabolites
+sce00600  Sphingolipid metabolism
+sce04146  Peroxisome
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00280  Valine, leucine and isoleucine degradation sce00310  Lysine degradation sce00330  Arginine and proline metabolism sce00340  Histidine metabolism sce00380  Tryptophan metabolism sce00410  beta-Alanine metabolism sce00561  Glycerolipid metabolism sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00260  Glycine, serine and threonine metabolism sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00670  One carbon pool by folate
+sce00561  Glycerolipid metabolism
+sce00NNN  None
+sce00561  Glycerolipid metabolism
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00561  Glycerolipid metabolism
+sce00NNN  None
+sce00220  Arginine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce01200  Carbon metabolism
+sce00051  Fructose and mannose metabolism
+sce00410  beta-Alanine metabolism sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00564  Glycerophospholipid metabolism
+sce00300  Lysine biosynthesis sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00770  Pantothenate and CoA biosynthesis
+sce00260  Glycine, serine and threonine metabolism sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00340  Histidine metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00480  Glutathione metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism
+sce00600  Sphingolipid metabolism sce04138  Autophagy - yeast
+sce00NNN  None
+sce00500  Starch and sucrose metabolism sce04011  MAPK signaling pathway - yeast
+sce00561  Glycerolipid metabolism
+sce00071  Fatty acid degradation sce00072  Synthesis and degradation of ketone bodies sce00280  Valine, leucine and isoleucine degradation sce00310  Lysine degradation sce00380  Tryptophan metabolism sce00620  Pyruvate metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce00640  Propanoate metabolism sce00650  Butanoate metabolism sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01212  Fatty acid metabolism
+sce00NNN  None
+sce00130  Ubiquinone and other terpenoid-quinone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00730  Thiamine metabolism
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites sce04011  MAPK signaling pathway - yeast
+sce00480  Glutathione metabolism
+sce00020  Citrate cycle (TCA cycle) sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids sce04146  Peroxisome
+sce00051  Fructose and mannose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites
+sce00040  Pentose and glucuronate interconversions
+sce00NNN  None
+sce00260  Glycine, serine and threonine metabolism sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00520  Amino sugar and nucleotide sugar metabolism sce01130  Biosynthesis of antibiotics
+sce00051  Fructose and mannose metabolism sce00561  Glycerolipid metabolism sce01200  Carbon metabolism
+sce00250  Alanine, aspartate and glutamate metabolism sce00260  Glycine, serine and threonine metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce04146  Peroxisome
+sce00520  Amino sugar and nucleotide sugar metabolism
+sce00760  Nicotinate and nicotinamide metabolism
+sce00020  Citrate cycle (TCA cycle) sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00670  One carbon pool by folate sce01200  Carbon metabolism
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00280  Valine, leucine and isoleucine degradation sce00310  Lysine degradation sce00330  Arginine and proline metabolism sce00340  Histidine metabolism sce00380  Tryptophan metabolism sce00410  beta-Alanine metabolism sce00561  Glycerolipid metabolism sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00860  Porphyrin and chlorophyll metabolism sce00970  Aminoacyl-tRNA biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00620  Pyruvate metabolism
+sce00030  Pentose phosphate pathway sce00040  Pentose and glucuronate interconversions sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00514  Other types of O-glycan biosynthesis sce00515  Mannose type O-glycan biosynthesis
+sce00500  Starch and sucrose metabolism
+sce00600  Sphingolipid metabolism
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00380  Tryptophan metabolism
+sce00020  Citrate cycle (TCA cycle) sce00190  Oxidative phosphorylation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00380  Tryptophan metabolism
+sce00380  Tryptophan metabolism
+sce00230  Purine metabolism
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system sce04138  Autophagy - yeast
+sce00270  Cysteine and methionine metabolism sce00450  Selenocompound metabolism sce00920  Sulfur metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00920  Sulfur metabolism
+sce00270  Cysteine and methionine metabolism sce00280  Valine, leucine and isoleucine degradation sce00290  Valine, leucine and isoleucine biosynthesis sce00770  Pantothenate and CoA biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00040  Pentose and glucuronate interconversions
+sce00514  Other types of O-glycan biosynthesis sce00515  Mannose type O-glycan biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce00340  Histidine metabolism sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00410  beta-Alanine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00061  Fatty acid biosynthesis sce00071  Fatty acid degradation sce01212  Fatty acid metabolism sce04146  Peroxisome
+sce00260  Glycine, serine and threonine metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce00670  One carbon pool by folate sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00500  Starch and sucrose metabolism
+sce00NNN  None
+sce00780  Biotin metabolism
+sce00860  Porphyrin and chlorophyll metabolism sce00970  Aminoacyl-tRNA biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00NNN  None
+sce00300  Lysine biosynthesis sce00620  Pyruvate metabolism sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation sce04145  Phagosome
+sce00130  Ubiquinone and other terpenoid-quinone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites
+sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites
+sce00260  Glycine, serine and threonine metabolism sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00300  Lysine biosynthesis sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00230  Purine metabolism
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism sce00480  Glutathione metabolism
+sce00230  Purine metabolism
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00620  Pyruvate metabolism
+sce00770  Pantothenate and CoA biosynthesis
+sce00330  Arginine and proline metabolism sce00410  beta-Alanine metabolism
+sce00780  Biotin metabolism
+sce00740  Riboflavin metabolism sce01110  Biosynthesis of secondary metabolites
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00790  Folate biosynthesis
+sce00010  Glycolysis / Gluconeogenesis sce00230  Purine metabolism sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00514  Other types of O-glycan biosynthesis sce00515  Mannose type O-glycan biosynthesis
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00010  Glycolysis / Gluconeogenesis sce00620  Pyruvate metabolism sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00500  Starch and sucrose metabolism
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00100  Steroid biosynthesis sce01130  Biosynthesis of antibiotics
+sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism
+sce00760  Nicotinate and nicotinamide metabolism
+sce00130  Ubiquinone and other terpenoid-quinone biosynthesis sce00270  Cysteine and methionine metabolism sce00300  Lysine biosynthesis sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00380  Tryptophan metabolism sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00270  Cysteine and methionine metabolism sce00450  Selenocompound metabolism sce01110  Biosynthesis of secondary metabolites sce01230  Biosynthesis of amino acids
+sce00670  One carbon pool by folate sce01200  Carbon metabolism
+sce00760  Nicotinate and nicotinamide metabolism sce04146  Peroxisome
+sce00NNN  None
+sce00760  Nicotinate and nicotinamide metabolism sce04213  Longevity regulating pathway - multiple species
+sce00100  Steroid biosynthesis sce01130  Biosynthesis of antibiotics
+sce00760  Nicotinate and nicotinamide metabolism
+sce00564  Glycerophospholipid metabolism
+sce00NNN  None
+sce00020  Citrate cycle (TCA cycle) sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00NNN  None
+sce00030  Pentose phosphate pathway sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00130  Ubiquinone and other terpenoid-quinone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00030  Pentose phosphate pathway sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00770  Pantothenate and CoA biosynthesis
+sce00052  Galactose metabolism sce00500  Starch and sucrose metabolism
+sce00020  Citrate cycle (TCA cycle) sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00100  Steroid biosynthesis
+sce00780  Biotin metabolism
+sce00760  Nicotinate and nicotinamide metabolism sce04213  Longevity regulating pathway - multiple species
+sce00760  Nicotinate and nicotinamide metabolism sce04213  Longevity regulating pathway - multiple species
+sce00760  Nicotinate and nicotinamide metabolism sce04213  Longevity regulating pathway - multiple species
+sce00760  Nicotinate and nicotinamide metabolism sce04213  Longevity regulating pathway - multiple species
+sce00NNN  None
+sce00790  Folate biosynthesis
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00230  Purine metabolism
+sce00760  Nicotinate and nicotinamide metabolism
+sce00NNN  None
+sce00020  Citrate cycle (TCA cycle) sce00480  Glutathione metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids sce04146  Peroxisome
+sce00513  Various types of N-glycan biosynthesis
+sce00230  Purine metabolism sce00670  One carbon pool by folate sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00010  Glycolysis / Gluconeogenesis sce00340  Histidine metabolism sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00410  beta-Alanine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00010  Glycolysis / Gluconeogenesis sce00071  Fatty acid degradation sce00280  Valine, leucine and isoleucine degradation sce00310  Lysine degradation sce00330  Arginine and proline metabolism sce00340  Histidine metabolism sce00380  Tryptophan metabolism sce00410  beta-Alanine metabolism sce00561  Glycerolipid metabolism sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00100  Steroid biosynthesis sce01130  Biosynthesis of antibiotics
+sce00NNN  None
+sce00051  Fructose and mannose metabolism sce00561  Glycerolipid metabolism sce01200  Carbon metabolism
+sce00072  Synthesis and degradation of ketone bodies sce00280  Valine, leucine and isoleucine degradation sce00650  Butanoate metabolism sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00561  Glycerolipid metabolism
+sce00330  Arginine and proline metabolism sce00332  Carbapenem biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation
+sce00230  Purine metabolism sce00250  Alanine, aspartate and glutamate metabolism
+sce04146  Peroxisome
+sce00190  Oxidative phosphorylation
+sce00190  Oxidative phosphorylation
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites sce04011  MAPK signaling pathway - yeast
+sce00020  Citrate cycle (TCA cycle) sce00190  Oxidative phosphorylation sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00500  Starch and sucrose metabolism
+sce00061  Fatty acid biosynthesis sce00620  Pyruvate metabolism sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00220  Arginine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00190  Oxidative phosphorylation
+sce00010  Glycolysis / Gluconeogenesis sce00620  Pyruvate metabolism sce00640  Propanoate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism
+sce00220  Arginine biosynthesis sce00250  Alanine, aspartate and glutamate metabolism sce00270  Cysteine and methionine metabolism sce00330  Arginine and proline metabolism sce00350  Tyrosine metabolism sce00360  Phenylalanine metabolism sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00670  One carbon pool by folate
+sce00230  Purine metabolism sce00920  Sulfur metabolism
+sce00NNN  None
+sce00NNN  None
+sce00600  Sphingolipid metabolism
+sce00564  Glycerophospholipid metabolism
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites
+sce00010  Glycolysis / Gluconeogenesis sce00030  Pentose phosphate pathway sce00052  Galactose metabolism sce00230  Purine metabolism sce00500  Starch and sucrose metabolism sce00520  Amino sugar and nucleotide sugar metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00NNN  None
+sce00NNN  None
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00NNN  None
+sce00564  Glycerophospholipid metabolism
+sce00270  Cysteine and methionine metabolism
+sce00564  Glycerophospholipid metabolism
+sce00740  Riboflavin metabolism sce01110  Biosynthesis of secondary metabolites
+sce00NNN  None
+sce00770  Pantothenate and CoA biosynthesis
+sce00380  Tryptophan metabolism sce00630  Glyoxylate and dicarboxylate metabolism
+sce00NNN  None
+sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00240  Pyrimidine metabolism sce00760  Nicotinate and nicotinamide metabolism
+sce00NNN  None
+sce00NNN  None
+sce00770  Pantothenate and CoA biosynthesis
+sce00220  Arginine biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00250  Alanine, aspartate and glutamate metabolism sce00410  beta-Alanine metabolism sce00430  Taurine and hypotaurine metabolism sce00650  Butanoate metabolism sce01110  Biosynthesis of secondary metabolites
+sce00010  Glycolysis / Gluconeogenesis sce00040  Pentose and glucuronate interconversions sce00561  Glycerolipid metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00564  Glycerophospholipid metabolism
+sce00240  Pyrimidine metabolism sce00260  Glycine, serine and threonine metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00600  Sphingolipid metabolism
+sce00620  Pyruvate metabolism
+sce00NNN  None
+sce00230  Purine metabolism sce00240  Pyrimidine metabolism sce00760  Nicotinate and nicotinamide metabolism sce01110  Biosynthesis of secondary metabolites
+sce00071  Fatty acid degradation sce04146  Peroxisome
+sce00NNN  None
+sce00430  Taurine and hypotaurine metabolism sce00480  Glutathione metabolism
+sce00230  Purine metabolism sce00250  Alanine, aspartate and glutamate metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00380  Tryptophan metabolism
+sce00600  Sphingolipid metabolism
+sce00760  Nicotinate and nicotinamide metabolism
+sce00NNN  None
+sce00NNN  None
+sce00NNN  None
+sce00190  Oxidative phosphorylation
+sce00360  Phenylalanine metabolism
+sce00NNN  None
+sce00564  Glycerophospholipid metabolism
+sce00240  Pyrimidine metabolism
+sce00500  Starch and sucrose metabolism sce01110  Biosynthesis of secondary metabolites
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00NNN  None
+sce00520  Amino sugar and nucleotide sugar metabolism
+sce00520  Amino sugar and nucleotide sugar metabolism
+sce00NNN  None
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00NNN  None
+sce00010  Glycolysis / Gluconeogenesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00NNN  None
+sce00564  Glycerophospholipid metabolism
+sce00230  Purine metabolism
+sce00NNN  None
+sce00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+sce00NNN  None
+sce00270  Cysteine and methionine metabolism
+sce00NNN  None
+sce00040  Pentose and glucuronate interconversions
+sce00564  Glycerophospholipid metabolism
+sce00270  Cysteine and methionine metabolism sce00480  Glutathione metabolism
+sce00730  Thiamine metabolism
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00NNN  None
+sce00561  Glycerolipid metabolism sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00NNN  None
+sce00790  Folate biosynthesis
+sce00561  Glycerolipid metabolism
+sce00630  Glyoxylate and dicarboxylate metabolism sce01200  Carbon metabolism
+sce00564  Glycerophospholipid metabolism
+sce00730  Thiamine metabolism
+sce00270  Cysteine and methionine metabolism sce01110  Biosynthesis of secondary metabolites
+
+sce00630  Glyoxylate and dicarboxylate metabolism sce01110  Biosynthesis of secondary metabolites sce01200  Carbon metabolism
+sce00NNN  None
+sce00NNN  None
+sce00900  Terpenoid backbone biosynthesis sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics
+sce00620  Pyruvate metabolism sce00640  Propanoate metabolism sce04011  MAPK signaling pathway - yeast
+sce00270  Cysteine and methionine metabolism sce00330  Arginine and proline metabolism sce00410  beta-Alanine metabolism sce00480  Glutathione metabolism
+sce00970  Aminoacyl-tRNA biosynthesis
+sce00300  Lysine biosynthesis sce00620  Pyruvate metabolism sce01130  Biosynthesis of antibiotics sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00190  Oxidative phosphorylation
+sce00290  Valine, leucine and isoleucine biosynthesis sce00620  Pyruvate metabolism sce01110  Biosynthesis of secondary metabolites sce01210  2-Oxocarboxylic acid metabolism sce01230  Biosynthesis of amino acids
+sce00240  Pyrimidine metabolism sce00330  Arginine and proline metabolism
+sce00NNN  None
+sce00030  Pentose phosphate pathway sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00190  Oxidative phosphorylation
+sce00600  Sphingolipid metabolism
+sce00030  Pentose phosphate pathway sce00230  Purine metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01200  Carbon metabolism sce01230  Biosynthesis of amino acids
+sce00562  Inositol phosphate metabolism sce04070  Phosphatidylinositol signaling system
+sce00061  Fatty acid biosynthesis sce01130  Biosynthesis of antibiotics sce01212  Fatty acid metabolism
+sce00620  Pyruvate metabolism
+sce00190  Oxidative phosphorylation
+sce00NNN  None
+sce00740  Riboflavin metabolism
+sce00564  Glycerophospholipid metabolism sce01110  Biosynthesis of secondary metabolites
+sce00640  Propanoate metabolism
+sce00100  Steroid biosynthesis sce01130  Biosynthesis of antibiotics
+sce00270  Cysteine and methionine metabolism sce00330  Arginine and proline metabolism sce00410  beta-Alanine metabolism sce00480  Glutathione metabolism
+sce00NNN  None
+sce00051  Fructose and mannose metabolism
+sce04070  Phosphatidylinositol signaling system sce04138  Autophagy - yeast
+sce00270  Cysteine and methionine metabolism sce01110  Biosynthesis of secondary metabolites
+sce00790  Folate biosynthesis
+sce00250  Alanine, aspartate and glutamate metabolism sce00910  Nitrogen metabolism sce01110  Biosynthesis of secondary metabolites sce01130  Biosynthesis of antibiotics sce01230  Biosynthesis of amino acids
+sce00NNN  None
+sce00062  Fatty acid elongation sce01040  Biosynthesis of unsaturated fatty acids sce01110  Biosynthesis of secondary metabolites sce01212  Fatty acid metabolism
+sce00740  Riboflavin metabolism sce01110  Biosynthesis of secondary metabolites
+sce00230  Purine metabolism sce00760  Nicotinate and nicotinamide metabolism
+sce00NNN  None
+sce00190  Oxidative phosphorylation
