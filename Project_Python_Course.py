@@ -49,7 +49,7 @@ unique_pathways = unique_pathways[:-1]          # Remove the last element which 
 
 
 Pathways_and_enzymes = {}
-cutoff_enzymes_per_pathway = 1
+cutoff_enzymes_per_pathway = 5
 save_these_pathways = []
 pathway_index = 0
 
@@ -202,12 +202,12 @@ import matplotlib.pyplot as plt
 ###################  PLOT AMOUNT OF PROTEINS PRESENT FOR ALL PATHWAYS  ###################
 
 
-number_of_proteins = []
-weights_of_proteins = []
-lengths_of_proteins = []
-number_times_lengths_of_proteins = []
+number_of_proteins = []					# I
+weights_of_proteins = []				# N
+lengths_of_proteins = []				# I
+number_times_lengths_of_proteins = []	# T
 
-for thepathway in unique_pathways:
+for thepathway in unique_pathways:									# Go through relevant data in dictionary, for all pathways
 	data_from_pathway = Pathways_and_enzymes_analyzed[thepathway]
 	number_of_proteins.append(data_from_pathway[0])
 	weights_of_proteins.append(data_from_pathway[1])
@@ -215,18 +215,14 @@ for thepathway in unique_pathways:
 	number_times_lengths = data_from_pathway[0]*data_from_pathway[2]
 	number_times_lengths_of_proteins.append(number_times_lengths)
 
-#number_of_proteins = number_of_proteins[:-1]
-#weights_of_proteins = weights_of_proteins[:-1]
-#lengths_of_proteins = lengths_of_proteins[:-1]
-#number_times_lengths_of_proteins = number_times_lengths_of_proteins[:-1]
-
-
+# Store the computed data in the dictionary "data_to_plot"
 data_tags = ['Number_of_proteins','Weights_of_proteins','Lengths_of_proteins','Number_times_lengths_of_proteins']
 data_to_plot = {'Number_of_proteins': number_of_proteins,
 				'Weights_of_proteins': weights_of_proteins,
 				'Lengths_of_proteins': lengths_of_proteins,
 				'Number_times_lengths_of_proteins': number_times_lengths_of_proteins}
 
+# Create the barplot for each data_tag and save the picture
 for tag in data_tags:
 	pathway_pos = numpy.arange(1,len(unique_pathways)+1)
 	plt.bar(pathway_pos, data_to_plot[tag], align='center', alpha=0.5)
@@ -249,13 +245,18 @@ for tag in data_tags:
 
 ###########################  CHECK THE 10 MOST EXPENSIVE PATHWAYS  #############################
 
+# Testing to obtain and print the top 10 pathways with the highest value for "proteins in pathway" * "average length in pathway"
 
 sort_index = numpy.argsort(number_times_lengths_of_proteins)
 printthis = sort_index[:-11:-1]
+print('Pathways that are most expensive when considering')
+print('its number of proteins times the average protein length')
 
 for thisnumber in printthis:
+	print(' ')
 	print(unique_pathways[thisnumber])
 
+print(' ')
 
 #####################  CHECK AMINO ACID ABUNDANCY IN ALL PROTEINS AT INCREASING SIZE  #####################
 
@@ -272,7 +273,6 @@ sorted_lengths_of_proteins = sorted(lengths_of_proteins_check)
 
 
 ########  Plotting the different protein lengths
-
 
 prot_number = len(lengths_of_proteins_check) + 5
 pathway_pos = numpy.arange(5,prot_number)
@@ -315,7 +315,6 @@ boxplot_dataset_aa_in_proteins = []
 
 # Regular plot
 
-
 from scipy import stats
 
 for aa in amino_acids:
@@ -329,7 +328,6 @@ for aa in amino_acids:
 	plt.plot(pathway_pos,fit_fn(pathway_pos),c='black')
 	text_in_plot = 'r-squared: ' + str(r_value**2)
 	plt.text(10, 10, text_in_plot, fontsize=10)
-	#plt.bar(pathway_pos, amino_acids_in_all_proteins[aa], align='center', alpha=0.5)
 	plt.ylabel('Average Amino Acid aundancy in %')
 	title_string = 'Amino_acid_' + aa + '_in proteins'
 	plt.title(title_string)
@@ -455,9 +453,6 @@ plt.close()
 #####   EXAMPLE ANALYSIS OF DATA   #####
 ########################################
 
-
-if cutoff_enzymes_per_pathway == 5:
-
 # After having a look at the plotted data I will further examine some features
 
 
@@ -544,11 +539,3 @@ if cutoff_enzymes_per_pathway == 5:
 		print(' ')
 
 ###############
-
-
-
-
-
-
-
-
